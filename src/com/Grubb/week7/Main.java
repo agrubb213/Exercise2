@@ -12,12 +12,7 @@ phone number. The business contact class should override the base class's method
 displays the name and email address so that it displays the phone number in addition to
 the name and email address. Create instances of both classes to demonstrate functionality.
  */
-/*
-Add a class to the previous exercise that represents a collection of contacts, both of the base
-class and the derived class. The collection class should include a single method to add a contact,
-regardless of class, to the collection - this demonstrates upcasting. The collection class should also
-include a method to iterate through the contacts and call their display methods - this demonstrates late binding.
- */
+
 public class Main {
     public static void main(String[] args) {
         Contact newContact = new Contact("Ausitn", "ajg05@amfgf.com");
