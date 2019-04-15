@@ -17,7 +17,15 @@ public class Main {
     public static void main(String[] args) {
         Contact newContact = new Contact("Ausitn", "ajg05@amfgf.com");
         BusinessContact newBusinessContact = new BusinessContact("Austin","ajg05@amfgf.com", "614-940-0881");
-        newContact.toString();
-        newBusinessContact.toString();
+        contactCollection list = new contactCollection();
+
+        newContact.display();
+        newBusinessContact.display();
+
+        list.addTo(newContact);
+        list.addTo(newBusinessContact);
+
+        list.showList();
+
     }
 }

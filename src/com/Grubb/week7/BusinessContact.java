@@ -12,11 +12,11 @@ public class BusinessContact extends Contact {
     }
 
     @Override
-    public String toString() {
-        return "Contact{" +
+    public void display() {
+        System.out.println("Contact{" +
                 "\nname: '" + name + '\'' +
                 "\nemail: '" + email + '\'' +
                 "\nphone number: '" + phoneNumber + '\'' +
-                "\n" +'}' ;
+                "\n" +'}');
     }
 }

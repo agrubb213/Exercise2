@@ -31,11 +31,10 @@ public class Contact {
         this.email = email;
     }
 
-    @Override
-    public String toString() {
-        return "Contact{" +
+    public void display() {
+        System.out.println("Contact{" +
                 "\nname='" + name + '\'' +
                 "\n, email='" + email + '\'' + "\n" +
-                '}';
+                '}');
     }
 }
